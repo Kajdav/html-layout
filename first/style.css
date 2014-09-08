@@ -1,0 +1,41 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.headerBox {
+	background: red;
+	height: 25%;
+	width: 100%;
+}
+.leftColumn {
+	background: blue;
+	display: inline-block;
+	float: left;
+	height: 75%;
+	width: 33%;
+}
+.rightColumn {
+	background: blue;
+	display: inline-block;
+	float:right;
+	height: 75%;
+	width: 33%;
+}
+.bottomBox {
+	background: green;
+	display: inline-block;
+	height: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 34%;
+	float: top;
+}
+.centerColumn {
+	background:yellow;
+	display: inline-block;
+	height:55%;
+	width:34%;
+	margin-left: auto;
+	margin-right: auto;
+}
